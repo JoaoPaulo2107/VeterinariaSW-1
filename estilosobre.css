@@ -1,0 +1,73 @@
+/* Reset básico */
+body, h1, h2, h3, h4, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fonte e fundo geral */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+}
+
+/* Navbar */
+.navbar {
+    padding: 1rem 0;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #007bff;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1rem;
+    margin-left: 1rem;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+    color: #0056b3;
+}
+
+/* Cartão principal */
+.card {
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    padding: 1.5rem;
+}
+
+.card h4 {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+    color: #007bff;
+}
+
+.card p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.card ul {
+    padding-left: 1.2rem;
+}
+
+.card ul li {
+    margin-bottom: 0.5rem;
+    list-style-type: disc;
+    font-size: 1rem;
+}
+
+/* Rodapé */
+footer {
+    font-size: 0.9rem;
+    color: #6c757d;
+    border-top: 1px solid #dee2e6;
+    padding-top: 1rem;
+}
